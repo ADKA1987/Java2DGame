@@ -32,4 +32,7 @@ private void createDisplay(){
 	frame.add(canvas);
 	frame.pack();
 }
+public Canvas getCanvas(){
+	return canvas;
+}
 }
